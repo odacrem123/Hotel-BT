@@ -13,6 +13,14 @@
     border-bottom: #444 dotted 1px;
 }
 
+#showcase .showcase-content {
+    padding-top: 100px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 40px;
+}
+
 /* Home Info */
 #home-info .info-img {
     display: none;
@@ -27,4 +35,28 @@
 .box {
     float: none;
     width: 100%;
+  }
+
+  /* About Page */
+  #about-info .info-right,
+  #about-info .info-left {
+      float: none;
+      width: 100%;
+  }
+
+  #about-info .info-right {
+      margin-top: 2rem;
+  }
+
+  .l-heading {
+      text-align: center;
+  }
+
+  /* Contact Page */
+  #contact-info .box {
+      border-bottom: #444 dotted 1px;
+  }
+
+  #contact-form form {
+      text-align: center;
   }
